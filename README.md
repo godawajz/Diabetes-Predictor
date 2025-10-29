@@ -1,6 +1,9 @@
 # Diabetes Prediction API
 
 ## Overview
+Author: Joanna Godawa
+for CSIS 632
+
 This project provides a machine learning API for predicting diabetes outcomes.
 The API is built with FastAPI and containerized with Docker.
 
@@ -49,3 +52,6 @@ POST /predict
     "s6": 0.02
 }
 ```
+
+## System Requirements
+Docker is unable to execute on any MacOS version earlier than **MacOS 10.15**, due to its dependency on go. The code was developed in a MacOS 10.15 environment, and containerization was tested with a Ubuntu 24.04 virtual machine. 
