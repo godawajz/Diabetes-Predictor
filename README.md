@@ -37,8 +37,16 @@ docker run -d -p 8000:8000 diabetes-api
 ```json
 POST /predict
 {
-  "feature1": value1,
-  "feature2": value2,
+    "age": 0.05,
+    "sex": 0.05,
+    "bmi": 0.06,
+    "bp": 0.02,
+    "s1": -0.04,
+    "s2": -0.04,
+    "s3": -0.02,
+    "s4": -0.01,
+    "s5": 0.01,
+    "s6": 0.02
   ...
 }
 ```
